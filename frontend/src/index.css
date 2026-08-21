@@ -33,36 +33,36 @@
 }
 
 :root {
-  --background: 39 33% 96%;
-  --foreground: 214 29% 18%;
-  --border: 36 20% 87%;
-  --input: 36 20% 81%;
-  --ring: 23 74% 46%;
-  --card: 40 40% 99%;
-  --card-foreground: 214 29% 18%;
-  --card-border: 36 20% 88%;
-  --sidebar: 211 30% 16%;
-  --sidebar-foreground: 40 32% 93%;
-  --primary: 23 74% 46%;
-  --primary-foreground: 40 40% 99%;
-  --secondary: 33 35% 91%;
-  --secondary-foreground: 214 29% 18%;
-  --muted: 37 22% 92%;
-  --muted-foreground: 214 13% 48%;
-  --accent: 170 29% 40%;
-  --accent-foreground: 40 40% 99%;
-  --destructive: 2 61% 47%;
-  --destructive-foreground: 40 40% 99%;
-  --chart-1: 23 74% 46%;
-  --chart-2: 170 29% 40%;
-  --chart-3: 43 76% 53%;
-  --chart-4: 211 30% 32%;
-  --chart-5: 2 61% 47%;
+  --background: 204 100% 96%;
+  --foreground: 211 68% 36%;
+  --border: 204 77% 86%;
+  --input: 204 77% 80%;
+  --ring: 208 64% 54%;
+  --card: 204 100% 99%;
+  --card-foreground: 211 68% 36%;
+  --card-border: 204 77% 86%;
+  --sidebar: 211 68% 36%;
+  --sidebar-foreground: 204 100% 96%;
+  --primary: 208 64% 54%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 204 77% 86%;
+  --secondary-foreground: 211 68% 36%;
+  --muted: 204 77% 90%;
+  --muted-foreground: 211 35% 48%;
+  --accent: 208 64% 54%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 211 68% 36%;
+  --destructive-foreground: 0 0% 100%;
+  --chart-1: 208 64% 54%;
+  --chart-2: 204 77% 80%;
+  --chart-3: 204 77% 70%;
+  --chart-4: 211 68% 36%;
+  --chart-5: 208 64% 54%;
   --app-font-sans: 'Manrope', sans-serif;
   --app-font-mono: 'DM Mono', monospace;
   --radius: 0.7rem;
-  --shadow-sm: 0 4px 14px rgba(39, 49, 58, .05);
-  --shadow-md: 0 12px 32px rgba(39, 49, 58, .09);
+  --shadow-sm: 0 4px 14px rgba(30, 90, 156, .08);
+  --shadow-md: 0 12px 32px rgba(30, 90, 156, .14);
 }
 
 .dark {
@@ -101,10 +101,10 @@
 
 html { scroll-behavior: smooth; }
 ::selection { background: hsl(var(--primary) / .18); }
-.app-shell { background: linear-gradient(125deg, hsl(var(--background)), hsl(39 27% 94%)); }
+.app-shell { background: linear-gradient(125deg, #EAF6FF, #BFE3FA); }
 .dark .app-shell { background: hsl(var(--background)); }
 .sidebar-grid {
-  background-image: linear-gradient(hsl(40 32% 93% / .04) 1px, transparent 1px), linear-gradient(90deg, hsl(40 32% 93% / .04) 1px, transparent 1px);
+  background-image: linear-gradient(#EAF6FF22 1px, transparent 1px), linear-gradient(90deg, #EAF6FF22 1px, transparent 1px);
   background-size: 22px 22px;
 }
 .noise::after { content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .035; z-index: 50; background-image: repeating-radial-gradient(circle at 20% 30%, rgba(40, 49, 58, .5) 0 1px, transparent 1px 4px); background-size: 9px 9px; }
